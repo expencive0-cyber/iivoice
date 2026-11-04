@@ -1,0 +1,83 @@
+{
+  "name": "DHL Invoice Assist",
+  "version": "1.4.2",
+  "unchangedBusinessModules": [
+    "core.mjs",
+    "eta.mjs",
+    "ocr.mjs",
+    "scan-regions.mjs",
+    "customers.mjs",
+    "reading-cache.mjs",
+    "page-audit.mjs",
+    "export-client.mjs",
+    "background.js"
+  ],
+  "appDifferencesRestrictedTo": "Output names and inline cache feedback",
+  "exportWorkerDifferencesRestrictedTo": "PDF title/producer metadata",
+  "cacheBackendUnchanged": true,
+  "customerPDFFilenamesRemainCustomerNames": true,
+  "existingDOMIdsPreserved": true,
+  "languageResults": {
+    "ar": {
+      "title": "DHL Invoice Assist",
+      "package": "DHL Invoice Assist",
+      "cacheHelp": "يمسح قراءات الأرقام المحفوظة فقط؛ الملفات والنتائج الحالية تظل موجودة. مسح الجلسة يفرّغ الملفات والنتائج من الواجهة.",
+      "cacheCleared": "تم مسح قراءات الأرقام المحفوظة. الملفات والنتائج الحالية لم تتغير."
+    },
+    "en": {
+      "title": "DHL Invoice Assist",
+      "package": "DHL Invoice Assist",
+      "cacheHelp": "Clears saved number readings only; current files and results stay in place. Clear session removes the selected files and results from this workspace.",
+      "cacheCleared": "Saved number readings cleared. Current files and results are unchanged."
+    },
+    "fr": {
+      "title": "DHL Invoice Assist",
+      "package": "DHL Invoice Assist",
+      "cacheHelp": "Efface uniquement les lectures de numéros enregistrées. Les fichiers et résultats actuels restent en place. Effacer la session retire les fichiers et résultats de cet espace.",
+      "cacheCleared": "Lectures de numéros enregistrées effacées. Les fichiers et résultats actuels sont inchangés."
+    },
+    "de": {
+      "title": "DHL Invoice Assist",
+      "package": "DHL Invoice Assist",
+      "cacheHelp": "Löscht nur gespeicherte Nummernlesungen. Aktuelle Dateien und Ergebnisse bleiben erhalten. Sitzung leeren entfernt die Dateien und Ergebnisse aus diesem Arbeitsbereich.",
+      "cacheCleared": "Gespeicherte Nummernlesungen gelöscht. Aktuelle Dateien und Ergebnisse sind unverändert."
+    },
+    "es": {
+      "title": "DHL Invoice Assist",
+      "package": "DHL Invoice Assist",
+      "cacheHelp": "Borra solo las lecturas de números guardadas. Los archivos y resultados actuales permanecen. Borrar sesión quita los archivos y resultados de este espacio.",
+      "cacheCleared": "Lecturas de números guardadas borradas. Los archivos y resultados actuales no han cambiado."
+    }
+  },
+  "chromeInstallationTested": false,
+  "emailClientsTested": false,
+  "integration": {
+    "analysisMs": 39716.382506999995,
+    "inputSourcePages": 337,
+    "inputETAPages": 13,
+    "outputPages": 350,
+    "invoices": 12,
+    "customers": {
+      "IBM WTC EGYPT BRANCH.pdf": 100,
+      "EGYPTIAN TEXTILES FOR DYEING AND FINISHING.pdf": 235,
+      "T&C GARMENTS S.A.E.pdf": 15
+    },
+    "unmatched": 0,
+    "manualAWBInputsForInvoices": 0,
+    "etaOptional": true,
+    "realOCR": true,
+    "actualExportWorker": true,
+    "chromeInstallationTested": false
+  },
+  "pageEquivalence": {
+    "pages": 350,
+    "allPageRendersEqualToVerifiedV14Master": true,
+    "producer": "DHL Invoice Assist v1.4.2",
+    "title": "DHL Invoice Assist — Organized invoice documents"
+  },
+  "cacheClearRemovesReadingsOnlyTested": true,
+  "cacheFeedbackVisibleNearButtonTested": true,
+  "clearSessionClearsFilesAndResultsTested": true,
+  "pdfMetadataAndDownloadNamesVerified": true,
+  "publicationStatus": "Chrome Web Store publication planned, not live"
+}

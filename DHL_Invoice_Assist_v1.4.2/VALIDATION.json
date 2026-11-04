@@ -1,0 +1,28 @@
+{
+  "source_pages": 337,
+  "eta_pages": 13,
+  "output_pages": 350,
+  "source_only_output_pages": 337,
+  "invoices": 12,
+  "eta_matched_invoice_ids": 12,
+  "customer_pdfs": {
+    "IBM WTC EGYPT BRANCH.pdf": 100,
+    "EGYPTIAN TEXTILES FOR DYEING AND FINISHING.pdf": 235,
+    "T&C GARMENTS S.A.E.pdf": 15
+  },
+  "every_original_page_preserved_exactly_once": true,
+  "every_output_page_render_identical_to_original": true,
+  "customer_zip_preserves_every_page": true,
+  "invoice_then_eta_then_awb_table_order_verified": true,
+  "eta_match_exact_internal_invoice_id_only": true,
+  "manual_matches": 0,
+  "unassigned_pages": 0,
+  "browser_installation_tested": false,
+  "old_153_page_regression_matches_approved_reference": true,
+  "raster_eta_ocr_test": true,
+  "unreadable_eta_pages_preserved_without_guessing": true,
+  "similar_invoice_id_not_matched_by_customer_name": true,
+  "setup_and_form_data_ui_removed": true,
+  "filename_collision_preserves_all_customer_and_unmatched_eta_pages": true,
+  "edited_customer_name_survives_eta_reload": true
+}

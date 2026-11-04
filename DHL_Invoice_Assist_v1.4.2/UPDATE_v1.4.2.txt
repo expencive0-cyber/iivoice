@@ -1,0 +1,10 @@
+DHL Invoice Assist v1.4.2
+
+Confirmed name applied to manifest, title, toolbar tooltip, header, footer, all five languages, main download names and PDF title/producer metadata. Customer PDFs remain named for their customers.
+Clear reading cache keeps its existing behavior and now has explanatory text plus feedback beside the button. It clears saved number readings, not current files/results. Clear session removes current selected files and results, not the original files on disk or reading cache.
+
+Invoice recognition, AWB/ETA matching, grouping, source-page copying and output selection logic are unchanged. App differences are limited to download filename strings and mirrored cache status. Export-worker differences are metadata strings only. Core, ETA, OCR, cache backend, audit and customer grouping modules remain byte-identical.
+
+Verified supplied batch: 337 DHL pages + 13 ETA pages = 350 output pages; 12 invoices; 3 customer PDFs; zero unassigned pages. Every master-page render matches the previously verified master.
+
+Chrome Web Store publication is planned. Real Chrome installation and actual Outlook/Gmail rendering have not been tested here.
